@@ -80,8 +80,8 @@ export default function Portfolio() {
       title: 'My Rotten Tomatoes',
       description: 'Application web de critiques de films avec Next.js, intégrant l\'API The Movie Database. Espace administrateur pour ajouter des films et gérer les retours du public.',
       tech: ['Next.js', 'React', 'API Integration', 'JavaScript'],
-      github: '#',
-      demo: '#'
+      github: 'https://github.com/ChristyBK202/MoviesTomatoe',
+      demo: 'https://movies-tomatoe.vercel.app/'
     },
     {
       title: 'Yowl',
@@ -94,14 +94,14 @@ export default function Portfolio() {
       title: 'Micro Service',
       description: 'Architecture microservices développée avec React pour une meilleure scalabilité et maintenance.',
       tech: ['React', 'Microservices', 'API'],
-      github: '#',
+      github: 'https://github.com/EpitechCodingAcademyPromo2026/C-COD-280-ABJ-2-1-dashboard-6',
       demo: '#'
     },
     {
       title: 'My Show Time',
       description: 'Application développée avec Nest.js pour la gestion de contenus multimédia.',
       tech: ['Nest.js', 'Node.js', 'TypeScript'],
-      github: '#',
+      github: 'https://github.com/EpitechCodingAcademyPromo2026/C-COD-250-ABJ-2-1-showtime-7',
       demo: '#'
     }
   ];
@@ -348,7 +348,7 @@ export default function Portfolio() {
                   <div className="absolute inset-0 bg-emerald-400/20 group-hover:bg-transparent transition-all z-10"></div>
                   {/* Remplacez l'URL ci-dessous par le chemin de votre photo */}
                   <img 
-                    src="./photo.jpg"
+                    src="./Christelle.jpg"
                     alt="Christelle BOKO" 
                     className="w-full h-full object-cover"
                   />

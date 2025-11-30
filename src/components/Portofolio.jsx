@@ -346,17 +346,13 @@ export default function Portfolio() {
               <div className="relative group">
                 <div className="w-64 h-64 rounded-lg overflow-hidden border-2 border-emerald-400 relative hover:border-emerald-300 transition-all">
                   <div className="absolute inset-0 bg-emerald-400/20 group-hover:bg-transparent transition-all z-10"></div>
-                  {/* Remplacez l'URL ci-dessous par le chemin de votre photo */}
+                  
                   <img 
-                    src="./Christelle.jpg"
+                    src="Christelle.png"
                     alt="Christelle BOKO" 
                     className="w-full h-full object-cover"
                   />
-                  {/* Si vous n'avez pas encore de photo, décommentez cette ligne et commentez l'img ci-dessus
-                  <div className="w-full h-full bg-slate-700 flex items-center justify-center text-6xl font-bold text-emerald-400">
-                    CB
-                  </div>
-                  */}
+                 
                 </div>
                 <div className="absolute -bottom-4 -right-4 w-64 h-64 border-2 border-emerald-400 rounded-lg -z-10 group-hover:translate-x-2 group-hover:translate-y-2 transition-transform"></div>
               </div>
